@@ -1,0 +1,30 @@
+$open-sans: 'Open Sans', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+h1 {
+  font-size: $xxxxx-large;
+  color: $raising-black;
+  font-family: $raleway;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: $xxxx-large;
+  color: $raising-black;
+  font-family: $raleway;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: $xx-large;
+  color: $raising-black;
+  font-family: $raleway;
+  font-weight: bold;
+}
+
+p {
+  font-size: $small;
+  color: $raising-black;
+  font-family: $raleway;
+}

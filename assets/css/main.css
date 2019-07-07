@@ -56,6 +56,34 @@ table {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 50px;
+  color: #221D23;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #221D23;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 35px;
+  color: #221D23;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  color: #221D23;
+  font-family: "Raleway", sans-serif;
+}
+
 .container {
   padding: 5px;
   margin: 0 auto;
@@ -69,7 +97,6 @@ table {
 
 .container .row,
 .container-fluid .row {
-  border: 2px solid white;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px 10px;
@@ -325,8 +352,48 @@ table {
   }
 }
 
-ul li {
-  display: inline;
+.primary {
+  height: 2rem;
+  width: 8rem;
+  background-color: #2AB7CA;
+  color: #FFF;
+  border-color: #2AB7CA;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.secondary {
+  height: 2rem;
+  width: 8rem;
+  background-color: #FFF;
+  color: #221D23;
+  border-color: #FFF;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+#graph {
+  animation: opacidad 3s infinite;
+}
+
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.prices {
+  background-image: url("../images/bg-price.svg");
+  height: 1200px;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #221D23;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

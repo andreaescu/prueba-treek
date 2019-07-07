@@ -1,0 +1,18 @@
+
+  #graph {
+     animation: opacidad 3s infinite;
+  }
+  @keyframes opacidad {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+.prices {
+  background-image: url('../images/bg-price.svg');
+  height: 1200px;
+  background-repeat: no-repeat;
+}

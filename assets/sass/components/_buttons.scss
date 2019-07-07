@@ -1,1 +1,19 @@
+.primary {
+    height: 2rem;
+    width: 8rem;
+    background-color: $ball-blue;
+    color: $white;
+    border-color: $ball-blue;
+    font-family: $raleway;
+    font-size: $medium;
+}
 
+.secondary {
+  height: 2rem;
+  width: 8rem;
+  background-color: $white;
+  color: $raising-black;
+  border-color: $white;
+  font-family: $raleway;
+  font-size: $medium;
+}
