@@ -13,6 +13,19 @@
 
 .prices {
   background-image: url('../images/bg-price.svg');
-  height: 1200px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 100%;
+}
+
+.prices__card {
+  width: 20rem;
+  height: 50rem;
+  background-color: $white;
+  margin-top: 10%;
+}
+
+ul li {
+  font-family: $raleway;
 }

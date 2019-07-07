@@ -18,9 +18,24 @@ h2 {
 
 h3 {
   font-size: $xx-large;
+  color: $white;
+  font-family: $raleway;
+  font-weight: bold;
+  padding-top: 250px;
+  text-align: center;
+}
+
+h4 {
+  font-size: $xx-large;
   color: $raising-black;
   font-family: $raleway;
   font-weight: bold;
+}
+
+h5 {
+  font-size: $x-large;
+  color: $raising-black;
+  font-family: $raleway;
 }
 
 p {

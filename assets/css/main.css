@@ -73,9 +73,24 @@ h2 {
 
 h3 {
   font-size: 35px;
+  color: #FFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-top: 250px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 35px;
   color: #221D23;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+}
+
+h5 {
+  font-size: 30px;
+  color: #221D23;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -386,14 +401,36 @@ p {
 }
 .prices {
   background-image: url("../images/bg-price.svg");
-  height: 1200px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 100%;
+}
+
+.prices__card {
+  width: 20rem;
+  height: 50rem;
+  background-color: #FFF;
+  margin-top: 10%;
+}
+
+ul li {
+  font-family: "Raleway", sans-serif;
 }
 
 a {
   text-decoration: none;
   color: #221D23;
   font-family: "Open Sans", sans-serif;
+}
+
+.footer__back {
+  background-color: #221D23;
+  height: 5rem;
+}
+
+.footer__back-text {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=main.css.map */
