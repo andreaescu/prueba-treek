@@ -11,6 +11,10 @@
       }
     }
 
+.description__cont {
+  margin-top: 5%;
+}
+
 .prices {
   background-image: url('../images/bg-price.svg');
   background-repeat: no-repeat;
@@ -20,12 +24,15 @@
 }
 
 .prices__card {
-  width: 20rem;
-  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  word-wrap: break-word;
   background-color: $white;
   margin-top: 10%;
 }
 
 ul li {
   font-family: $raleway;
+  line-height: 2rem;
 }

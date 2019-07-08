@@ -97,6 +97,8 @@ p {
   font-size: 14px;
   color: #221D23;
   font-family: "Raleway", sans-serif;
+  line-height: 1.5rem;
+  margin-top: 2rem;
 }
 
 .container {
@@ -387,6 +389,17 @@ p {
   font-size: 16px;
 }
 
+.primary__large {
+  height: 2rem;
+  width: 16rem;
+  background-color: #2AB7CA;
+  color: #FFF;
+  border-color: #2AB7CA;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10%;
+}
+
 #graph {
   animation: opacidad 3s infinite;
 }
@@ -399,6 +412,10 @@ p {
     opacity: 1;
   }
 }
+.description__cont {
+  margin-top: 5%;
+}
+
 .prices {
   background-image: url("../images/bg-price.svg");
   background-repeat: no-repeat;
@@ -408,14 +425,17 @@ p {
 }
 
 .prices__card {
-  width: 20rem;
-  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  word-wrap: break-word;
   background-color: #FFF;
   margin-top: 10%;
 }
 
 ul li {
   font-family: "Raleway", sans-serif;
+  line-height: 2rem;
 }
 
 a {
