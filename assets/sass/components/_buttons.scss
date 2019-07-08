@@ -8,6 +8,16 @@
     font-size: $medium;
 }
 
+.primary:hover {
+  background-color: $middle-blue;
+  border-color: $middle-blue;
+}
+
+.primary:focus {
+  background-color: $silver-chalice;
+  border-color:$silver-chalice;
+}
+
 .secondary {
   height: 2rem;
   width: 8rem;
@@ -27,4 +37,14 @@
   font-family: $raleway;
   font-size: $medium;
   margin-bottom: 10%;
+}
+
+.primary__large:hover {
+  background-color: $middle-blue;
+  border-color: $middle-blue;
+}
+
+.primary__large:focus {
+  background-color: $silver-chalice;
+  border-color:$silver-chalice;
 }

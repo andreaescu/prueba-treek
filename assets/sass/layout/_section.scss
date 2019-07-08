@@ -1,15 +1,17 @@
+.description__graph {
+  animation: graph 3s ease-in-out 0s infinite;
+}
 
-  #graph {
-     animation: opacidad 3s infinite;
+@keyframes graph {
+  0% {
+    bottom: 0;
+    opacity: 0;
   }
-  @keyframes opacidad {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
 
 .description__cont {
   margin-top: 5%;

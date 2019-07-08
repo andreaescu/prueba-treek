@@ -379,6 +379,16 @@ p {
   font-size: 16px;
 }
 
+.primary:hover {
+  background-color: #77D1DD;
+  border-color: #77D1DD;
+}
+
+.primary:focus {
+  background-color: #AEACAF;
+  border-color: #AEACAF;
+}
+
 .secondary {
   height: 2rem;
   width: 8rem;
@@ -400,15 +410,27 @@ p {
   margin-bottom: 10%;
 }
 
-#graph {
-  animation: opacidad 3s infinite;
+.primary__large:hover {
+  background-color: #77D1DD;
+  border-color: #77D1DD;
 }
 
-@keyframes opacidad {
+.primary__large:focus {
+  background-color: #AEACAF;
+  border-color: #AEACAF;
+}
+
+.description__graph {
+  animation: graph 3s ease-in-out 0s infinite;
+}
+
+@keyframes graph {
   0% {
+    bottom: 0;
     opacity: 0;
   }
   100% {
+    bottom: 0;
     opacity: 1;
   }
 }
