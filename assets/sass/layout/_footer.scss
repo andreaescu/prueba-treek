@@ -1,8 +1,19 @@
 .footer__back {
   background-color: $raising-black;
-  height: 5rem;
+  height: 8rem;
 }
 
 .footer__back-text {
   color: $white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__content {
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  align-items: center;
 }

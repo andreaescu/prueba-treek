@@ -420,6 +420,18 @@ p {
   border-color: #AEACAF;
 }
 
+.description {
+  margin-top: 5%;
+}
+
+.image__mountain {
+  background-image: url("../images/bg-hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140vh;
+  background-position: right bottom;
+}
+
 .description__graph {
   animation: graph 3s ease-in-out 0s infinite;
 }
@@ -442,6 +454,7 @@ p {
   background-image: url("../images/bg-price.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 200vh;
   background-position: left;
   padding-bottom: 100%;
 }
@@ -458,21 +471,58 @@ p {
 ul li {
   font-family: "Raleway", sans-serif;
   line-height: 2rem;
+  list-style-type: disc;
 }
 
 a {
   text-decoration: none;
   color: #221D23;
   font-family: "Open Sans", sans-serif;
+  padding: 1rem;
 }
 
+.nav__menu {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  align-items: center;
+}
+
+.nav__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1%;
+}
+
+@media (max-width: 375px) {
+  a, .nav__buttons {
+    display: none;
+  }
+}
+@media (min-width: 375px) {
+  .nav__burguer {
+    display: inline;
+  }
+}
 .footer__back {
   background-color: #221D23;
-  height: 5rem;
+  height: 8rem;
 }
 
 .footer__back-text {
   color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__content {
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

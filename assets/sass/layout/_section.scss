@@ -1,3 +1,15 @@
+.description {
+  margin-top: 5%;
+}
+
+.image__mountain {
+  background-image: url('../images/bg-hero.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140vh;
+  background-position: right bottom;
+}
+
 .description__graph {
   animation: graph 3s ease-in-out 0s infinite;
 }
@@ -21,6 +33,7 @@
   background-image: url('../images/bg-price.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 200vh;
   background-position: left;
   padding-bottom: 100%;
 }
@@ -37,4 +50,5 @@
 ul li {
   font-family: $raleway;
   line-height: 2rem;
+  list-style-type: disc;
 }
