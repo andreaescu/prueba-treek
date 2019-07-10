@@ -1,0 +1,14 @@
+.description__graph {
+  animation: graph 3s ease-in-out 0s infinite;
+}
+
+@keyframes graph {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
