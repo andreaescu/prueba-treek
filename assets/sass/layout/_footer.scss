@@ -6,14 +6,15 @@
 .footer__back-text {
   color: $white;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
 }
 
 .footer__content {
+  margin-top: 3%;
+}
+
+.footer__content-text {
   color: $white;
-  display: flex;
   justify-content: space-between;
   display: inline;
-  align-items: center;
 }

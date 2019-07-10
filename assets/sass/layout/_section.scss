@@ -5,9 +5,15 @@
 .image__mountain {
   background-image: url('../images/bg-hero.svg');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140vh;
-  background-position: right bottom;
+  background-size: contain;
+  height: 34vh;
+  background-position: right center;
+}
+
+@media (min-width: 375px) {
+  .image__mountain, {
+    height: 194vh;
+  }
 }
 
 .description__graph {
@@ -33,9 +39,7 @@
   background-image: url('../images/bg-price.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
-  background-position: left;
-  padding-bottom: 100%;
+  background-position: center;
 }
 
 .prices__card {
@@ -47,8 +51,16 @@
   margin-top: 10%;
 }
 
+.prices__card-text {
+  padding: 10%;
+}
+
 ul li {
   font-family: $raleway;
   line-height: 2rem;
   list-style-type: disc;
+}
+
+ul {
+  padding: inherit;
 }

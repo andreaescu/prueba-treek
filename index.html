@@ -12,7 +12,7 @@
     <nav class="nav">
       <div class="container">
         <div class="row nav__menu">
-          <div class="col-6">
+          <div class="col-6 nav__menu-text">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
@@ -39,7 +39,7 @@
                     </g>
                 </g>
             </svg>
-            <div class="nav__menu-text">
+            <div>
               <a href="#">Acerca de</a>
               <a href="#">Características</a>
               <a href="#">Precios</a>
@@ -48,9 +48,9 @@
           <div class="col-6 nav__buttons">
             <button type="button" class="secondary">Iniciar Sesión</button>
             <button type="button" class="primary">Regístrate</button>
-          </div>
-          <div class="nav__burguer col-6">
-            <i class="fas fa-bars fa-2x"></i>
+            <div class="nav__burguer">
+              <i class="fas fa-bars fa-2x"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
     <section class="description col-lg-4 col-6">
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div class="col-lg-4 col-12">
             <h1>Haz Trekking sin parar</h1>
             <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
           </div>
@@ -90,12 +90,14 @@
         </div>
       </div>
     </section>
-    <section class="prices">
+    <section>
+      <div class="prices">
       <div class="container">
         <h3>Precios</h3>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="prices__card col-lg-5 col-12">
+            <div class="prices__card-text">
             <h5>Trekk-in Free</h5>
             <h4>$ 0 / mes</h4>
             <hr>
@@ -105,35 +107,39 @@
             </ul>
             <hr>
             <button type="button" class="primary__large">Obtén Free</button>
+            </div>
           </div>
           <div class="prices__card col-lg-5 col-12">
-            <h5>Trekk-in Free</h5>
-            <h4>$ 3500 / mes</h4>
-            <hr>
-            <ul>
-              <li>Ver mapas creados por usuarios</li>
-              <li>Concetar con otros usuarios</li>
-              <li>Definir mejores rutas</li>
-              <li>Mapas Offline</li>
-              <li>Integración con otras aplicaciones</li>
-            </ul>
-            <hr>
-            <button type="button" class="primary__large">Obtén Premium</button>
+            <div class="prices__card-text">
+              <h5>Trekk-in Free</h5>
+              <h4>$ 3500 / mes</h4>
+              <hr>
+              <ul>
+                <li>Ver mapas creados por usuarios</li>
+                <li>Concetar con otros usuarios</li>
+                <li>Definir mejores rutas</li>
+                <li>Mapas Offline</li>
+                <li>Integración con otras aplicaciones</li>
+              </ul>
+              <hr>
+              <button type="button" class="primary__large">Obtén Premium</button>
+            </div>
           </div>
           <div class="col-lg-1"></div>
         </div>
+      </div>
       </div>
     </section>
     <footer class="footer__back">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-12">
-            <a class="footer__content" href="#">Legal</a>
-            <a class="footer__content" href="#">Cookies</a>
-            <a class="footer__content" href="#">Sobre anuncios</a>
+          <div class="col-lg-6 col-12 footer__content">
+            <a class="footer__content-text" href="#">Legal</a>
+            <a class="footer__content-text" href="#">Cookies</a>
+            <a class="footer__content-text" href="#">Sobre anuncios</a>
           </div>
           <div class="col-lg-6 col-12">
-            <a class="footer__back-text" href="#">c 2018 Trekk-in SPA.</a>
+            <a class="footer__back-text" href="#">© 2018 Trekk-in SPA.</a>
           </div>
         </div>
       </div>

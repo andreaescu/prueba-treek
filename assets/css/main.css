@@ -401,7 +401,7 @@ p {
 
 .primary__large {
   height: 2rem;
-  width: 16rem;
+  width: 100%;
   background-color: #2AB7CA;
   color: #FFF;
   border-color: #2AB7CA;
@@ -427,11 +427,16 @@ p {
 .image__mountain {
   background-image: url("../images/bg-hero.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140vh;
-  background-position: right bottom;
+  background-size: contain;
+  height: 34vh;
+  background-position: right center;
 }
 
+@media (min-width: 375px) {
+  .image__mountain {
+    height: 194vh;
+  }
+}
 .description__graph {
   animation: graph 3s ease-in-out 0s infinite;
 }
@@ -454,9 +459,7 @@ p {
   background-image: url("../images/bg-price.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
-  background-position: left;
-  padding-bottom: 100%;
+  background-position: center;
 }
 
 .prices__card {
@@ -468,10 +471,18 @@ p {
   margin-top: 10%;
 }
 
+.prices__card-text {
+  padding: 10%;
+}
+
 ul li {
   font-family: "Raleway", sans-serif;
   line-height: 2rem;
   list-style-type: disc;
+}
+
+ul {
+  padding: inherit;
 }
 
 a {
@@ -482,10 +493,14 @@ a {
 }
 
 .nav__menu {
-  margin-top: 5%;
   display: flex;
   justify-content: space-between;
   display: inline;
+  align-items: center;
+}
+
+.nav__menu-text {
+  display: flex;
   align-items: center;
 }
 
@@ -496,13 +511,13 @@ a {
 }
 
 @media (max-width: 375px) {
-  a, .nav__buttons {
+  a, .nav__buttons button {
     display: none;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 376px) {
   .nav__burguer {
-    display: inline;
+    display: none;
   }
 }
 .footer__back {
@@ -513,16 +528,17 @@ a {
 .footer__back-text {
   color: #FFF;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
 }
 
 .footer__content {
+  margin-top: 3%;
+}
+
+.footer__content-text {
   color: #FFF;
-  display: flex;
   justify-content: space-between;
   display: inline;
-  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
